@@ -1,5 +1,5 @@
 (ns com.stuartsierra.component-test
-  (:require [clojure.test :refer (deftest is are)]
+  (:require #+clj [clojure.test :refer (deftest is are)]
             [clojure.set :refer (map-invert)]
             [com.stuartsierra.component :as component]))
 
